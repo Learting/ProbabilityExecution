@@ -1,0 +1,15 @@
+name: ProbabilityExecution
+version: 1.0
+api-version: 1.17
+author: Learting
+main: cc.globalserver.ProbabilityExecution.Main
+commands:
+  pe:
+    description: Execute Probability Commands
+    usage: /pe <ID>
+  peadd:
+    description: Add remaining times to a player
+    usage: /peadd <ID> <times>
+  peremove:
+    description: Remove remainting times of a player
+    usage: /peremove <ID> <times>
