@@ -3,6 +3,7 @@ version: 1.0
 api-version: 1.17
 author: Learting
 main: cc.globalserver.ProbabilityExecution.Main
+softdepend: [PlaceholderAPI]
 commands:
   pe:
     description: Execute Probability Commands
@@ -11,5 +12,11 @@ commands:
     description: Add remaining times to a player
     usage: /peadd <ID> <times>
   peremove:
-    description: Remove remainting times of a player
+    description: Remove remaining times of a player
     usage: /peremove <ID> <times>
+  peset:
+    description: Set remaining times of a player
+    usage: /peset <ID> <times>
+  peshow:
+    description: Show remaining times of a player
+    usage: /peshow <ID>

@@ -1,0 +1,5 @@
+added: '&a已增加次数：'
+removed: '&c已扣除次数：'
+set: '&a已设置次数为：'
+noRemainingTimes: '&c你的使用次数已尽'
+playerNotFound: '&c未知玩家'
